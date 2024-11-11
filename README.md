@@ -138,3 +138,30 @@
         print('Число = 0')
   ```
 </details>   
+
+3. Визначити максимальне число, серед введених чотирьох
+<details>
+  <summary>
+    Розвʼязок
+  </summary>
+  
+  ```python
+x1 = int(input("Введіть 1 число:"))
+x2 = int(input("Введіть 2 число:"))
+x3 = int(input("Введіть 3 число:"))
+x4 = int(input("Введіть 4 число:"))
+
+if x1 > x2:
+    max = x1
+else: 
+    max = x2
+
+if x3 > max:
+    max = x3
+    
+if x4 > max:
+    max = x4
+    
+print("Максимальне число: ", max)
+  ```
+</details>   
