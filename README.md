@@ -127,14 +127,15 @@ else:
   </summary>
   
   ```python
-d = int(input("Введіть число:"))
+a = int(input("Введіть перше число:"))
+b = int(input("Введіть друге число:"))
 
-if d > 0:
-    print('Число додатнє')
-elif d < 0:
-    print("Число відємне")
+if a > b:
+    print('Перше число більше')
+elif a < b:
+    print("Друге число більше")
 else:
-    print('Число = 0')
+    print('Числа однакові')
   ```
 </details>   
 
